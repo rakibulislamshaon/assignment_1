@@ -87,8 +87,7 @@ body {
   position: relative;
   padding: 110px 0;
   color: #fff;
-  width: 1600px;
-  height: 674px;
+  height: 100%;
 }
 
 .overlay {
