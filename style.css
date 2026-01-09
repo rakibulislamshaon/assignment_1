@@ -87,6 +87,8 @@ body {
   position: relative;
   padding: 110px 0;
   color: #fff;
+  width: 1600px;
+  height: 674px;
 }
 
 .overlay {
@@ -97,7 +99,7 @@ body {
 
 .hero-content {
   position: relative;
-  max-width: 720px;
+  max-width: 1600px;
   text-align: center;
 }
 
@@ -128,12 +130,37 @@ body {
   gap: 16px;
   justify-content: center;
 }
-/* PROBLEM */
-.problem {
+.hero-buttons .btn {
+  font-size: 16px;
+  font-weight: semi-bold;
+  justify-content: center;
+} 
+.hero-buttons .btn.primary img {
+  align-items: center;
+  margin-left: 12.19px;
+  width: 16px;
+  height: 16px;
+}
+/* NOTES */
+.notes {
   padding: 90px 0;
   text-align: center;
+  background-color: #f8f6f1;
+  width: 1600px;
+  max-width: 1600px;
+  margin: auto;
+  height: 450px;
 }
-
+.notes h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000b06;
+}
+.notes p {
+  font-size: 16px;
+  margin: 16px 0 0 0;
+  color: #627382;
+}
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px,1fr));
@@ -142,17 +169,12 @@ body {
 }
 
 .card {
+  display: grid;
   padding: 30px;
   background: #fff;
   border-radius: 14px;
   box-shadow: 0 12px 30px rgba(0,0,0,0.06);
-  transition: transform 0.3s ease;
 }
-
-.card:hover {
-  transform: translateY(-6px);
-}
-
 .icon {
   width: 44px;
   height: 44px;
@@ -171,8 +193,18 @@ body {
 /* SOLUTION */
 .solution {
   padding: 90px 0;
+  color: #30B868;
 }
-
+.solution-text h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+}
+.solution-text p {
+  font-size: 20px;
+  margin: 20px 0 0 0;
+  color: #627382;
+}
 .solution-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -189,6 +221,8 @@ body {
   margin-bottom: 12px;
   padding-left: 22px;
   position: relative;
+  font-size: 16px;
+  color: #001931;
 }
 
 .solution-text li img{
@@ -208,14 +242,20 @@ body {
   font-size: 40px;
   padding: 80px 0 auto 20px;
   font-weight: bold;
-  color: #000b06;
+  color: #001931;
   width: 1280px;
   height: 48px;
+  line-height: auto;
 }
 .cta p {
-  font-size: 24px;
+  font-size: 16px;
   margin-bottom: 16px;
+  line-height: 24px;
   color: #627382;
+}
+.cta small {
+  font-size: 16px;
+  color:#627382;
 }
 
 /* FOOTER */
