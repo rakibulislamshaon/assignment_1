@@ -236,6 +236,9 @@ body {
   padding: 90px 0;
   text-align: center;
   justify-content: center;
+  width: 1360px;
+  height: 384px;
+  margin: 120px 120px
 }
 .cta h2 {
   font-size: 40px;
@@ -275,7 +278,13 @@ body {
   margin-top: 20px;
   opacity: 0.7;
 }
-
+hr {
+  border: none;
+  height: 1px;
+  background-color: #e5e7eb;
+  margin: 20px 0;
+  width: auto;
+}
 /* RESPONSIVE */
 @media (max-width: 900px) {
   .solution-grid {
