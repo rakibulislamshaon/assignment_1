@@ -18,8 +18,10 @@ body {
 
 
 .logo img{
-    background-position: 120px 13px, bottom right;
+    background-position: 16px 1341px, bottom right;
     display: flex;
+    width: 139px;
+    height: 60px;
 }
 .nav {
   display: grid;
@@ -83,10 +85,10 @@ body {
 
 /* HERO */
 .hero {
-  background: url("B13-A01-Knowledge-Vault/assets/hero-bg.png") center/cover no-repeat;
+  background-image: url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
   position: relative;
   padding: 110px 0;
-  color: #fff;
+  color: #ffffff;
   height: 100%;
 }
 
@@ -238,7 +240,7 @@ body {
   justify-content: center;
   width: 1360px;
   height: 384px;
-  margin: 120px 120px
+  margin: 120px
 }
 .cta h2 {
   font-size: 40px;
